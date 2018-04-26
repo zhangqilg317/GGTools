@@ -101,10 +101,8 @@
 		A33A8C842091624C005F97B8 /* GGTools */ = {
 			isa = PBXGroup;
 			children = (
-				A33A8C852091624C005F97B8 /* AppDelegate.h */,
-				A33A8C862091624C005F97B8 /* AppDelegate.m */,
-				A33A8C882091624C005F97B8 /* ViewController.h */,
-				A33A8C892091624C005F97B8 /* ViewController.m */,
+				A33A8CB820916399005F97B8 /* 入口 */,
+				A33A8CB72091637D005F97B8 /* 导航定义 */,
 				A33A8C8B2091624C005F97B8 /* Main.storyboard */,
 				A33A8C8E2091624C005F97B8 /* Assets.xcassets */,
 				A33A8C902091624C005F97B8 /* LaunchScreen.storyboard */,
@@ -130,6 +128,24 @@
 				A33A8CAB2091624C005F97B8 /* Info.plist */,
 			);
 			path = GGToolsUITests;
+			sourceTree = "<group>";
+		};
+		A33A8CB72091637D005F97B8 /* 导航定义 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "导航定义";
+			sourceTree = "<group>";
+		};
+		A33A8CB820916399005F97B8 /* 入口 */ = {
+			isa = PBXGroup;
+			children = (
+				A33A8C852091624C005F97B8 /* AppDelegate.h */,
+				A33A8C862091624C005F97B8 /* AppDelegate.m */,
+				A33A8C882091624C005F97B8 /* ViewController.h */,
+				A33A8C892091624C005F97B8 /* ViewController.m */,
+			);
+			path = "入口";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
