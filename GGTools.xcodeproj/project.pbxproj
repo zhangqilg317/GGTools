@@ -15,6 +15,7 @@
 		A33A8C952091624C005F97B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33A8C942091624C005F97B8 /* main.m */; };
 		A33A8C9F2091624C005F97B8 /* GGToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A33A8C9E2091624C005F97B8 /* GGToolsTests.m */; };
 		A33A8CAA2091624C005F97B8 /* GGToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A33A8CA92091624C005F97B8 /* GGToolsUITests.m */; };
+		A33A8CBB209164C7005F97B8 /* GGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33A8CBA209164C7005F97B8 /* GGNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A33A8CA52091624C005F97B8 /* GGToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33A8CA92091624C005F97B8 /* GGToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGToolsUITests.m; sourceTree = "<group>"; };
 		A33A8CAB2091624C005F97B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33A8CB9209164C7005F97B8 /* GGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGNavigationController.h; sourceTree = "<group>"; };
+		A33A8CBA209164C7005F97B8 /* GGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A33A8C842091624C005F97B8 /* GGTools */ = {
 			isa = PBXGroup;
 			children = (
+				A33A8CBC2091654C005F97B8 /* 扩展方法 */,
 				A33A8CB820916399005F97B8 /* 入口 */,
 				A33A8CB72091637D005F97B8 /* 导航定义 */,
 				A33A8C8B2091624C005F97B8 /* Main.storyboard */,
@@ -133,6 +137,8 @@
 		A33A8CB72091637D005F97B8 /* 导航定义 */ = {
 			isa = PBXGroup;
 			children = (
+				A33A8CB9209164C7005F97B8 /* GGNavigationController.h */,
+				A33A8CBA209164C7005F97B8 /* GGNavigationController.m */,
 			);
 			path = "导航定义";
 			sourceTree = "<group>";
@@ -146,6 +152,13 @@
 				A33A8C892091624C005F97B8 /* ViewController.m */,
 			);
 			path = "入口";
+			sourceTree = "<group>";
+		};
+		A33A8CBC2091654C005F97B8 /* 扩展方法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "扩展方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33A8C8A2091624C005F97B8 /* ViewController.m in Sources */,
+				A33A8CBB209164C7005F97B8 /* GGNavigationController.m in Sources */,
 				A33A8C952091624C005F97B8 /* main.m in Sources */,
 				A33A8C872091624C005F97B8 /* AppDelegate.m in Sources */,
 			);
